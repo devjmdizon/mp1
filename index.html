@@ -4,64 +4,144 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <title>Nery Nice Printings</title>
   </head>
   <body>
     <main class="page">
-    <header class="header-container">
-      <nav class="header-nav">
-        <div class="header-logo">
-        <img class="img-header" src="images/2.png" alt="">
-        <h1 class="text-header">NERY NICE <strong class="memories">PRINTS</strong></h1>
-      </div>
-        <div class="hamburger-container">
-          <input class="ham-btn" type="checkbox" id="hamburger" />
-          <label class="hamburger" for="hamburger">&#9776</label>
-          <ul class="nav-ul">
-            <li class="home menu-item"><a href="#">HOME</a></li>
-            <li class="shop menu-item"><a href="#products">SHOP</a></li>
-            <li class="about menu-item"><a href="#">ABOUT</a></li>
-            <li class="contact menu-item"><a href="#">CONTACT US</a></li>
-            <li class="signin menu-item"><a href="#">SIGN IN / SIGN UP</a></li>
-          </ul>
-        </div>
-      </nav>
-    </header>
-    <section class="hero">
-      <section class="hero-header">
-        <img class="img-logo" src="images/header-img.png" alt="">
-      </section>
-      <section class="hero-content">
-        <h1 class="content-title">Transforming <em class="memories">MEMORIES </em> into <em class="arts">ARTS</em></h1>
-        <h1 class="hero-descript">At <strong><em>Nery Nice Prints</em></strong>, we believe in the power of art to capture life's most cherished moments and turn them into timeless masterpieces. Whether it's a special event, a beautiful landscape, or a treasured memory, we're here to help you create personalized prints that will adorn your space and warm your heart</h1>
-        <p class="learn-more-hero"><a href="#">Learn more</a></p>
-      </section>
-    </section>
-    <hr class="divider">
-    <!-- <section class="product-section">
-      <div class="img-product-container">
-      <img class="img-product" src="images/Sample Product 1.png" alt="">
-    </div>
-    <div class="product-btn">
-      <p class="get-now"><a href="#">Get now!</a></p>
-      <p class="learn-more"><a href="#">Learn more</a></p>
-    </div>
-    </section> -->
+      <header class="header-container">
+        <nav class="header-nav">
+          <div class="header-logo">
+            <img class="img-header" src="images/2.png" alt="" />
+            <h1 class="text-header">
+              NERY NICE <strong class="memories">PRINTS</strong>
+            </h1>
+          </div>
 
-    <section class="product-grid" id="products">
-      <article class="product-container-1">
-        <section class="product-1"><img class="img-product-1" src="images/notebook 1.PNG" alt="">Product 1</section>
-      </article>
-      <article class="product-container-2">
-        <section class="product-2"><img class="img-product-2" src="images/notebook 2.PNG" alt="">
-          Product 2
-      </section></article>
-      <article class="product-container-3"> 
-        <section class="product-3"><img class="img-product-3" src="images/notebook 3.PNG" alt="">
-          Product 3
-        </section></article>
-    </section>
-  </main>
+          <div class="dropdown">
+            <i class="fa-solid fa-bars drop-btn"></i>
+            <ul class="dropdown-menu">
+              <li class="home menu-item"><a href="#Home">HOME</a></li>
+              <li class="shop menu-item"><a href="#products">SHOP</a></li>
+              <li class="about menu-item"><a href="#about">ABOUT</a></li>
+              <li class="contact menu-item"><a href="#contactus">CONTACT US</a></li>
+              <li class="signin menu-item">
+                <a href="#">SIGN IN</a>
+              </li>
+            </ul>
+
+            <ul class="nav-menu">
+              <li class="home menu-item"><a href="#home">HOME</a></li>
+              <li class="shop menu-item"><a href="#products">SHOP</a></li>
+              <li class="about menu-item"><a href="#">ABOUT US</a></li>
+              <li class="contact menu-item"><a href="#">CONTACT US</a></li>
+              <li class="signin menu-item">
+                <a href="#">SIGN IN</a>
+              </li>
+            </ul>
+          </div>
+          
+        </nav>
+      </header>
+
+      <section class="hero" id="home">
+        <section class="hero-header">
+          <img class="img-logo" src="images/header-img.png" alt="" />
+        </section>
+        <section class="hero-content">
+          <h1 class="content-title">
+            Transforming <em class="memories">MEMORIES </em> into
+            <em class="arts">ARTS</em>
+          </h1>
+          <p class="hero-descript">
+            At <strong><em>Nery Nice Prints</em></strong
+            >, we believe in the power of art to capture life's most cherished
+            moments and turn them into timeless masterpieces. Whether it's a
+            special event, a beautiful landscape, or a treasured memory, we're
+            here to help you create personalized prints that will adorn your
+            space and warm your heart
+          </p>
+          <p class="learn-more-hero"><a href="#">Learn more</a></p>
+        </section>
+      </section>
+
+      <hr class="divider" />
+
+      <section class="products" id="products">
+          <ul class="product-1 product-items">
+            <li><figure>
+            <img class="img-product" src="images/notebook 1.PNG" alt="" /></figure><figcaption><h3>Love always protects #1</h3></figcaption>
+            <p>Love Always Protect series</p>
+            <a class="get-now">Get now!</a>
+          </li>
+
+          <li><figure>
+            <img class="img-product" src="images/notebook 2.PNG" alt="" /></figure><figcaption><h3>Love always protects #2</h3></figcaption>
+            <p>Love Always Protect series</p>
+            <a class="get-now">Get now!</a>
+          </li>
+
+          <li><figure>
+            <img class="img-product" src="images/notebook 3.PNG" alt="" /></figure><figcaption><h3>Love always protects #3</h3></figcaption>
+            <p>Love Always Protect series</p>
+            <a class="get-now">Get now!</a>
+          </li>
+        </section>
+
+        <hr class="footer-divider" />
+
+        <section class="contact-section">
+          <h2>Contact us now!</h2>
+          <form class="contact-form">
+
+            <section class="contact-item">
+            <label for="name">Name: </label>
+            <input type="text" id="name" class="fullname">
+          </section>
+
+          <section class="contact-item">
+            <label for="email">Email: </label>
+            <input type="email" id="email" class="email">
+          </section>
+
+          <section class="contact-item">
+            <label for="number">Contact Number: </label>
+            <input type="number" id="number" class="number">
+          </section>
+
+          <section class="contact-item">
+            <label for="message">Message: </label>
+            <input type="message" id="message" class="message">
+          </section>
+          </form>
+        </section>
+
+
+
+      <hr class="footer-divider" />
+
+      <footer class="footer">
+        <section class="footer-container">
+          <p class="text-header text-footer">
+            NERY NICE <strong class="memories">PRINTS</strong>
+          </p>
+          <p class="copyright">&copy; 2023 KodeGo Project by devjmdizon</p>
+          <div class="social-links">
+            <a class="facebook" href="https://www.facebook.com/neryniceprints"
+              target="_blank"><i class="fa-brands fa-square-facebook"></i
+            ></a>
+            <a class="instagram" href="https://www.instagram.com/neryniceprints/"
+              ><i class="fa-brands fa-instagram"></i
+            ></a>
+          </div>
+        </section>
+      </footer>
+    </main>
   </body>
 </html>
