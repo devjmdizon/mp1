@@ -81,7 +81,8 @@ html {
   border: 1px solid #ed2f74;
   border-radius: 9px;
   color: #ed2f74;
-  padding: 3px;
+  padding: 5px 15px;
+  font-weight: 600;
 }
 
 .dropdown i:hover ~ .dropdown-menu {
@@ -92,8 +93,8 @@ html {
 }
 
 .dropdown-menu a,
-a:active,
-a:visited {
+.dropdown-menu a:active,
+.dropdown-menu a:visited {
   color: white;
 }
 
@@ -109,13 +110,13 @@ a:visited {
 .hero {
   justify-content: center;
   text-align: center;
-  margin: 3em;
   gap: 1em;
+  height: 100%;
 }
 
 .img-logo {
   width: 100%;
-  margin-top: 50px;
+  margin-top: 10px;
   padding: auto;
 }
 
@@ -147,6 +148,7 @@ a:visited {
   margin: 10px auto;
   padding: 3px;
   width: 100px;
+  cursor: pointer;
   border-radius: 0.25rem;
   align-self: center;
   text-align: center;
@@ -159,14 +161,18 @@ a:hover {
 }
 
 .divider {
-  margin: 50px;
+  margin: 50px 0;
 }
 
 .products {
   padding: 2rem;
   text-align: center;
   background-color: ;
-  height: 50%;
+  height: 100%;
+}
+
+.product-header {
+  padding-bottom: 30px;
 }
 
 .product-items {
@@ -227,8 +233,8 @@ a:hover {
   justify-content: center;
 }
 
-.footer-divider {
-  margin: 20px;
+.divider {
+  margin: 20px 5px;
 }
 
 .footer-container {
@@ -295,14 +301,15 @@ a:hover {
     justify-content: center;
     align-items: center;
     text-align: center;
+    padding: 40px;
   }
   .img-logo {
-    width: 700px;
+    width: 600px;
     height: 400px;
   }
 
-  .hero-content {
-    padding-top: 50px;
+  .hero-header {
+    padding-top: 20px;
   }
 
   .product-grid {

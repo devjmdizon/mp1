@@ -27,10 +27,12 @@
           <div class="dropdown">
             <i class="fa-solid fa-bars drop-btn"></i>
             <ul class="dropdown-menu">
-              <li class="home menu-item"><a href="#Home">HOME</a></li>
+              <li class="home menu-item"><a href="#home">HOME</a></li>
               <li class="shop menu-item"><a href="#products">SHOP</a></li>
-              <li class="about menu-item"><a href="#about">ABOUT</a></li>
-              <li class="contact menu-item"><a href="#contactus">CONTACT US</a></li>
+              <li class="contact menu-item">
+                <a href="#contact">CONTACT US</a>
+              </li>
+              <li class="about menu-item"><a href="#about">ABOUT US</a></li>
               <li class="signin menu-item">
                 <a href="#">SIGN IN</a>
               </li>
@@ -39,14 +41,15 @@
             <ul class="nav-menu">
               <li class="home menu-item"><a href="#home">HOME</a></li>
               <li class="shop menu-item"><a href="#products">SHOP</a></li>
-              <li class="about menu-item"><a href="#">ABOUT US</a></li>
-              <li class="contact menu-item"><a href="#">CONTACT US</a></li>
+              <li class="contact menu-item">
+                <a href="#contact">CONTACT US</a>
+              </li>
+              <li class="about menu-item"><a href="#about">ABOUT US</a></li>
               <li class="signin menu-item">
                 <a href="#">SIGN IN</a>
               </li>
             </ul>
           </div>
-          
         </nav>
       </header>
 
@@ -71,75 +74,116 @@
         </section>
       </section>
 
-      <hr class="footer-divider" />
+      <hr class="divider" />
 
       <section class="products" id="products">
-          <ul class="product-1 product-items">
-            <li><figure>
-            <img class="img-product" src="images/notebook 1.PNG" alt="" /></figure><figcaption><h3>Love always protects #1</h3></figcaption>
+        <h2 class="product-header">Products</h2>
+        <ul class="product-1 product-items">
+          <li>
+            <figure>
+              <img class="img-product" src="images/notebook 1.PNG" alt="" />
+            </figure>
+            <figcaption><h3>Love always protects #1</h3></figcaption>
             <p>Love Always Protect series</p>
             <a class="get-now">Get now!</a>
           </li>
 
-          <li><figure>
-            <img class="img-product" src="images/notebook 2.PNG" alt="" /></figure><figcaption><h3>Love always protects #2</h3></figcaption>
+          <li>
+            <figure>
+              <img class="img-product" src="images/notebook 2.PNG" alt="" />
+            </figure>
+            <figcaption><h3>Love always protects #2</h3></figcaption>
             <p>Love Always Protect series</p>
             <a class="get-now">Get now!</a>
           </li>
 
-          <li><figure>
-            <img class="img-product" src="images/notebook 3.PNG" alt="" /></figure><figcaption><h3>Love always protects #3</h3></figcaption>
+          <li>
+            <figure>
+              <img class="img-product" src="images/notebook 3.PNG" alt="" />
+            </figure>
+            <figcaption><h3>Love always protects #3</h3></figcaption>
             <p>Love Always Protect series</p>
             <a class="get-now">Get now!</a>
           </li>
-        </section>
 
-        <hr class="footer-divider" />
+          <li>
+            <figure>
+              <img class="img-product" src="images/4.PNG" alt="" />
+            </figure>
+            <figcaption><h3>HTML is awesome</h3></figcaption>
+            <p>Programming Series</p>
+            <a class="get-now">Get now!</a>
+          </li>
 
-        <section class="contact-section">
+          <li>
+            <figure>
+              <img class="img-product" src="images/5.PNG" alt="" />
+            </figure>
+            <figcaption><h3>Big Nested Div</h3></figcaption>
+            <p>Programming Series</p>
+            <a class="get-now">Get now!</a>
+          </li>
 
-          <section class="contact-header">
-          <h2>Contact us now!</h2>
-          </section>
-
-<section class="contact-form-container">
-    <form class="contact-form">
-
-            
-      <section class="contact-item-container">
-            
-
-          <section class="contact-item">
-            <label for="name">Name: </label>
-            <input type="text" id="name" class="fullname">
-          </section>
-          
-          <section class="contact-item">
-            <label for="email">Email: </label>
-            <input type="email" id="email" class="email">
-          </section>
-
-          <section class="contact-item">
-            <label for="number">Contact Number: </label>
-            <input type="number" id="number" class="number">
-          </section>
+          <li>
+            <figure>
+              <img class="img-product" src="images/6.PNG" alt="" />
+            </figure>
+            <figcaption><h3>Java Devs</h3></figcaption>
+            <p>Programming Series</p>
+            <a class="get-now">Get now!</a>
+          </li>
+        </ul>
       </section>
 
+      <hr class="divider" />
 
-      <section class="contact-item-message">
-          <section class="contact-item">
-            <label for="message">Message: </label>
-            <textarea class="message-box" type="message" id="message" cols="30" rows="10"></textarea>
-          </section>
-          <p class="form-btn"><a href="mailto:neryniceprints@gmail.com?subject=Nery Nice Prints: Interested Client">Submit</a></p>
+      <section class="contact-section" id="contact">
+        <section class="contact-header">
+          <h2>Contact us now!</h2>
         </section>
-    </form>
 
-</section>
-</section>
+        <section class="contact-form-container">
+          <form class="contact-form">
+            <section class="contact-item-container">
+              <section class="contact-item">
+                <label for="name">Name: </label>
+                <input type="text" id="name" class="fullname" />
+              </section>
 
+              <section class="contact-item">
+                <label for="email">Email: </label>
+                <input type="email" id="email" class="email" />
+              </section>
 
-<hr class="footer-divider" />
+              <section class="contact-item">
+                <label for="number">Contact Number: </label>
+                <input type="number" id="number" class="number" />
+              </section>
+            </section>
+
+            <section class="contact-item-message">
+              <section class="contact-item">
+                <label for="message">Message: </label>
+                <textarea
+                  class="message-box"
+                  type="message"
+                  id="message"
+                  cols="30"
+                  rows="10"
+                ></textarea>
+              </section>
+              <p class="form-btn">
+                <a
+                  href="mailto:neryniceprints@gmail.com?subject=Nery Nice Prints: Interested Client"
+                  >Submit</a
+                >
+              </p>
+            </section>
+          </form>
+        </section>
+      </section>
+
+      <hr class="divider" />
 
       <footer class="footer">
         <section class="footer-container">
@@ -148,11 +192,17 @@
           </p>
           <p class="copyright">&copy; 2023 KodeGo Project by devjmdizon</p>
           <div class="social-links">
-            <a class="facebook" href="https://www.facebook.com/neryniceprints"
-              target="_blank"><i class="fa-brands fa-square-facebook"></i
+            <a
+              class="facebook"
+              href="https://www.facebook.com/neryniceprints"
+              target="_blank"
+              ><i class="fa-brands fa-square-facebook"></i
             ></a>
-            <a class="instagram" href="https://www.instagram.com/neryniceprints/"
-            target="_blank"><i class="fa-brands fa-instagram"></i
+            <a
+              class="instagram"
+              href="https://www.instagram.com/neryniceprints/"
+              target="_blank"
+              ><i class="fa-brands fa-instagram"></i
             ></a>
           </div>
         </section>
