@@ -16,33 +16,35 @@
   <body>
     <header class="header-container">
       <nav class="header-nav">
-        <section class="nav-links">
+        <!-- <section class="nav-links">
           <ul class="menu-ul">
             <li><a href="#">Home</a></li>
             <li><a href="#">Projects</a></li>
             <li><a href="#">Contact</a></li>
           </ul>
-
-          <ul class="-dropdown-menu-ul">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Projects</a></li>
-            <li><a href="#">Contact</a></li>
-          </ul>
-        </section>
-        <section class="nav-logo"><h1>DZone</h1></section>
+        </section> -->
+        <section class="nav-logo"><h1>DZone.</h1></section>
         <section class="social-link">
           <ul class="social-menu">
             <li class="social-item github">
-              <a href="#"><i class="fa-brands fa-github"></i></a>
+              <a href="https://github.com/devjmdizon" target="_blank"
+                ><i class="fa-brands fa-github"></i
+              ></a>
             </li>
             <li class="social-item facebook">
-              <a href="#"><i class="fa-brands fa-facebook"></i></a>
+              <a href="https://www.facebook.com/josephmdiz/" target="_blank"
+                ><i class="fa-brands fa-facebook"></i
+              ></a>
             </li>
             <li class="social-item twitter">
-              <a href="#"><i class="fa-brands fa-twitter"></i></a>
+              <a href="https://twitter.com/JosephMico13" target="_blank"
+                ><i class="fa-brands fa-twitter"></i
+              ></a>
             </li>
             <li class="social-item instagram">
-              <a href="#"><i class="fa-brands fa-instagram"></i></a>
+              <a href="https://www.instagram.com/josemich13/" target="_blank"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
             </li>
           </ul>
         </section>
@@ -60,7 +62,7 @@
             <h3 class="hero-plus">- Full Stack Web Developer</h3>
           </li>
           <li class="hero-items">
-            <p>
+            <p class="hero-descript">
               a passionate and experienced full stack web developer ready to
               bring your digital dreams to life. Whether you're looking to
               create a stunning website, streamline your online presence, or
@@ -68,9 +70,12 @@
             </p>
           </li>
           <li>
-            <p class="hero-btn"><a href="#">Get in touch</a></p>
+            <p class="btn-style"><a href="#">Get in touch</a></p>
           </li>
         </ul>
+      </section>
+      <section class="hero-logo">
+        <img class="hero-img" src="images/portfolio-logo.png" alt="" />
       </section>
       <section class="hero-right-intro">
         <ul class="experience-list">
@@ -89,5 +94,116 @@
         </ul>
       </section>
     </section>
+
+    <section class="projects">
+      <section class="project-header">
+        <h1>My Projects</h1>
+      </section>
+
+      <section class="project-container">
+        <article class="project-item">
+          <section class="project-details">
+            <img src="images/portfolio-thumb.PNG" alt="" />
+            <h3 class="project-title">Portfolio</h3>
+            <p class="description">
+              This is a responsive personal portfolio using HTML and CSS with
+            </p>
+          </section>
+
+          <section class="project-links">
+            <ul class="link-items">
+              <li>
+                <a href=""
+                  ><i class="fa-solid fa-share-from-square fa-beat"></i
+                ></a>
+              </li>
+              <li>
+                <a href=""><i class="fa-brands fa-github fa-beat"></i></a>
+              </li>
+            </ul>
+          </section>
+        </article>
+
+        <article class="project-item">
+          <section class="project-details">
+            <img src="images/landing-page-thumb.png" alt="" />
+            <h3 class="project-title">Landing Page</h3>
+            <p class="description">
+              This is a responsive busines landing page made with HTML and CSS.
+            </p>
+          </section>
+
+          <section class="project-links">
+            <ul class="link-items">
+              <li>
+                <a href=""
+                  ><i class="fa-solid fa-share-from-square fa-beat"></i
+                ></a>
+              </li>
+              <li>
+                <a href=""><i class="fa-brands fa-github fa-beat"></i></a>
+              </li>
+            </ul>
+          </section>
+        </article>
+      </section>
+    </section>
+
+    <section class="contact-section" id="contact">
+      <section class="contact-header">
+        <h2>Send me a message!</h2>
+        <p>
+          You may contact me through my social links above or by filling up this
+          form.
+        </p>
+      </section>
+
+      <section class="contact-form-container">
+        <form class="contact-form">
+          <section class="contact-item-container">
+            <section class="contact-item">
+              <label for="name">Name: </label>
+              <input type="text" id="name" class="fullname" />
+            </section>
+
+            <section class="contact-item">
+              <label for="email">Email: </label>
+              <input type="email" id="email" class="email" />
+            </section>
+
+            <section class="contact-item">
+              <label for="number">Contact Number: </label>
+              <input type="number" id="number" class="number" />
+            </section>
+          </section>
+
+          <section class="contact-item-message">
+            <section class="contact-item">
+              <label for="message">Message: </label>
+              <textarea
+                class="message-box"
+                type="message"
+                id="message"
+                cols="30"
+                rows="10"
+              ></textarea>
+            </section>
+            <p class="form-btn btn-style">
+              <a
+                href="mailto:neryniceprints@gmail.com?subject=Nery Nice Prints: Interested Client"
+                >Submit</a
+              >
+            </p>
+          </section>
+        </form>
+      </section>
+    </section>
+
+    <footer class="footer">
+      <section class="footer-container">
+        <p class="text-footer">DZONE.</p>
+        <p class="copyright">&copy; 2023 KodeGo Project by devjmdizon</p>
+      </section>
+    </footer>
   </body>
 </html>

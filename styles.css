@@ -81,7 +81,7 @@ html {
   border: 1px solid #ed2f74;
   border-radius: 9px;
   color: #ed2f74;
-  padding: 5px 15px;
+  padding: 5px 8px;
   font-weight: 600;
 }
 
@@ -233,10 +233,6 @@ a:hover {
   justify-content: center;
 }
 
-.divider {
-  margin: 20px 5px;
-}
-
 .footer-container {
   display: flex;
   justify-content: space-around;
@@ -253,11 +249,14 @@ a:hover {
   font-size: 10px;
 }
 .copyright {
-  margin-right: 100px;
+  margin-right: 50px;
 }
 
 .message-box {
   color: black;
+}
+.divider {
+  margin: 30px 20px;
 }
 
 @media only screen and (min-width: 961px) {
@@ -292,10 +291,6 @@ a:hover {
     opacity: 70%;
   }
 
-  .nav-menu a:hover::after {
-    transition: transform 0.25s ease-out;
-  }
-
   .hero {
     display: flex;
     justify-content: center;
@@ -312,14 +307,10 @@ a:hover {
     padding-top: 20px;
   }
 
-  .product-grid {
-    grid-template-columns: 1fr 1fr;
-  }
-
   .contact-form {
     display: flex;
     gap: 3em;
-    padding: 100px;
+    padding: 60px;
   }
   .contact-item label {
     padding-top: 30px;
