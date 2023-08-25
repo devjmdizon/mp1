@@ -122,14 +122,14 @@ html {
 
 .content-title {
   margin-top: 50px;
-  font-size: 30px;
+  font-size: 25px;
 }
 
 .hero-descript {
   margin-top: 30px;
   padding: 8px;
   border-radius: 40px;
-  font-size: 13px;
+  font-size: 15px;
   text-align: left;
 }
 
@@ -246,7 +246,7 @@ a:hover {
 }
 .text-footer,
 .footer p {
-  font-size: 10px;
+  font-size: 15px;
 }
 .copyright {
   margin-right: 50px;
@@ -257,6 +257,21 @@ a:hover {
 }
 .divider {
   margin: 30px 20px;
+}
+
+@media only screen and (min-width: 760px) and (max-width: 960px) {
+  .content-title {
+    margin-top: 50px;
+    font-size: 35px;
+  }
+
+  .hero-descript {
+    margin-top: 30px;
+    padding: 8px;
+    border-radius: 40px;
+    font-size: 20px;
+    text-align: left;
+  }
 }
 
 @media only screen and (min-width: 961px) {
@@ -299,12 +314,20 @@ a:hover {
     padding: 40px;
   }
   .img-logo {
-    width: 600px;
-    height: 400px;
+    width: 850px;
+    height: 600px;
   }
 
   .hero-header {
     padding-top: 20px;
+  }
+
+  .content-title {
+    font-size: 50px;
+  }
+
+  .hero-descript {
+    font-size: 30px;
   }
 
   .contact-form {

@@ -202,6 +202,7 @@ h3 {
   justify-content: space-between;
   margin: 20px;
 }
+
 @media only screen and (min-width: 961px) {
   .header-nav {
     display: flex;
@@ -211,6 +212,11 @@ h3 {
 
   .nav-logo {
     padding: 20px;
+    font-size: 25px;
+  }
+
+  .social-menu {
+    font-size: 20px;
   }
 
   .hero {
@@ -220,12 +226,17 @@ h3 {
 
   .hero-img {
     display: block;
-    width: 100%px;
+    width: 100%;
+    height: auto;
     margin: 0;
     padding: 0;
   }
+
+  .hero-items p {
+    font-size: 35px;
+  }
   .hero-name {
-    font-size: 40px;
+    font-size: 50px;
   }
 
   .hero-left-intro {
@@ -247,6 +258,10 @@ h3 {
     font-weight: 300;
     margin: 20px 0;
     padding-top: 40px;
+  }
+
+  .experience-item p {
+    font-size: 30px;
   }
 
   .btn-style {
