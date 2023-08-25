@@ -90,11 +90,29 @@ html {
   margin: auto;
   padding: 10px 15px;
 }
+.skill-item > i {
+  font-size: 150px;
+}
+
+.skill-list {
+  /* display: flex;
+  gap: 1em; */
+  align-items: center;
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+
+.skill-list p {
+  text-align: center;
+  font-size: 40px;
+  margin-top: 20px;
+}
 
 .project-header {
   margin: 40px;
   padding: 10px 0;
-  font-size: 40px;
+  font-size: 20px;
   text-align: center;
   border: 1px solid #cb4445;
   border-radius: 40px;
@@ -144,11 +162,14 @@ h3 {
   border-radius: 20px;
   text-align: center;
 }
-\ .pr0ject-item img,
+.project-item img,
 .project-title,
-,
 .description {
-  alighm-left: 20px;
+  align-items: 20px;
+}
+
+.project-title {
+  color: #cb4445;
 }
 .contact-form {
   padding: 50px 90px;
@@ -232,11 +253,16 @@ h3 {
     padding: 0;
   }
 
-  .hero-items p {
-    font-size: 35px;
+  .hero-items p,
+  h3 {
+    font-size: 20px;
+  }
+
+  .hero-items h3 {
+    font-size: 30px;
   }
   .hero-name {
-    font-size: 50px;
+    font-size: 40px;
   }
 
   .hero-left-intro {
@@ -254,10 +280,10 @@ h3 {
   }
 
   .experience-num {
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 300;
     margin: 20px 0;
-    padding-top: 40px;
+    padding-top: 30px;
   }
 
   .experience-item p {
@@ -269,6 +295,10 @@ h3 {
     width: 150px;
     text-align: center;
     padding: 10px 15px;
+  }
+
+  .project-header {
+    font-size: 30px;
   }
 
   .contact-form {
