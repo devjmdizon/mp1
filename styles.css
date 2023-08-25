@@ -246,7 +246,7 @@ a:hover {
 }
 .text-footer,
 .footer p {
-  font-size: 15px;
+  font-size: 20px;
 }
 .copyright {
   margin-right: 50px;
@@ -342,4 +342,6 @@ a:hover {
   .message-box {
     padding: 30px;
   }
+
+  .foo;
 }
