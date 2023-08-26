@@ -239,7 +239,10 @@ h3 {
 
 @media only screen and (min-width: 961px) {
   .hero {
-    background-image: url(images/background.png);
+    /* background-image: url(images/background.png); */
+    background-blend-mode: darken;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+      url(images/background.png);
     background-position: center;
     width: 100%;
     margin: 20px;
