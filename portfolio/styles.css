@@ -44,12 +44,13 @@ html {
 }
 
 .hero {
-  background-color: black;
-  margin: 20px;
+  background-position: center;
+  width: 100%;
 }
 
 .hero-left-intro {
   text-align: center;
+  margin: 20px;
 }
 
 .hero-descript {
@@ -61,7 +62,7 @@ html {
 }
 
 .hero-items {
-  margin: 20px 0;
+  margin: 10px 0;
 }
 
 .hero-img {
@@ -73,7 +74,8 @@ html {
 
 .hero-right-intro {
   text-align: center;
-  padding: 20px;
+  padding: 10px;
+  margin: 20px;
 }
 
 .experience-num {
@@ -236,6 +238,16 @@ h3 {
 }
 
 @media only screen and (min-width: 961px) {
+  .hero {
+    background-image: url(images/background.png);
+    background-position: center;
+    width: 100%;
+    margin: 20px;
+  }
+
+  .hero-logo {
+    display: none;
+  }
   .header-nav {
     display: flex;
     justify-content: space-between;
@@ -253,7 +265,8 @@ h3 {
 
   .hero {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    margin: 10px;
   }
 
   .hero-img {
@@ -278,7 +291,7 @@ h3 {
 
   .hero-left-intro {
     text-align: left;
-    width: 450px;
+    width: 400px;
   }
 
   .hero-right-intro {
