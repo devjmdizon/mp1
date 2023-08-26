@@ -199,6 +199,24 @@ a:hover {
   gap: 1em;
 }
 
+.review-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  align-items: center;
+  text-align: center;
+}
+
+.reviews h1 {
+  text-align: center;
+}
+
+.client-logo {
+  width: 150px;
+  height: 150px;
+  border-radius: 40%;
+  margin: 20px;
+}
+
 .contact-section {
   display: flex;
   flex-direction: column;
@@ -328,6 +346,10 @@ a:hover {
 
   .hero-descript {
     font-size: 20px;
+  }
+
+  .client-review {
+    padding: 5px;
   }
 
   .contact-form {
